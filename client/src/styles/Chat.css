@@ -1,0 +1,42 @@
+.exit{
+    position: fixed;
+    top: 10px;
+    right: 20px;
+}
+.chatArea {
+    margin-top: 50px;
+    height: 80vh;
+    background: rgb(115, 241, 126);
+    border-radius: .4em;
+    padding: 10px 20px;
+    overflow-y: scroll;
+    overflow-x: auto;
+    scrollbar-color: #458245 #714826;
+}
+::-webkit-scrollbar-track {border-radius: 4px; left: -100px;}
+::-webkit-scrollbar {width: 7px;} 
+::-webkit-scrollbar-thumb {border-radius: 4px;background: #03d80d;}
+:hover::-webkit-scrollbar-thumb
+
+
+.messages {
+    height: 100%;
+    margin: 0;
+    padding: 10px 20px 10px 20px;
+}
+.list_messages{
+    margin-top: 20px;
+    display: flex;
+    max-width: 1200px;
+    flex-direction: column;
+}
+.list_messages>li{
+    list-style-type: none; 
+    padding:5px;
+    margin: -4px;
+    position: relative;
+    border-radius: .4em;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 600;
+}
